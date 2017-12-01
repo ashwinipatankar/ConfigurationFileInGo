@@ -25,6 +25,10 @@ func main() {
 	fmt.Println("*************************************************")
 	goingExample()
 	fmt.Println("*************************************************")
+	fmt.Println("\t\t\tVIPER Example\t\t\t")
+	fmt.Println("*************************************************")
+	viperExample()
+	fmt.Println("*************************************************")
 }
 func jsonExample() {
 	//filename is the path to the json config file
@@ -57,4 +61,8 @@ func goingExample() {
 	log.Println(configuration.Port)
 	log.Println(configuration.Connection_String)
 	log.Println(configuration.Static_Variable)
+}
+
+func viperExample() {
+
 }
