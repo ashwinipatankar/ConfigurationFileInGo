@@ -1,4 +1,6 @@
 Different Ways to read the configuration:
 1. JSON
+Source: https://medium.com/@felipedutratine/manage-config-in-golang-to-get-variables-from-file-and-env-variables-33d876887152
+
 2.
 3. 
